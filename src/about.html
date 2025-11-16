@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CeeZed Technologies - About Us</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary': '#4f46e5',
+                        'secondary': '#10b981',
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <header class="shadow-md sticky top-0 z-50 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+
+                <div class="flex-shrink-0">
+                    <a href="index.html" class="text-2xl font-bold text-primary">CeeZed Tech</a>
+                </div>
+
+                <nav class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-600 hover:text-primary pb-1 transition duration-150">Home</a>
+                    <a href="about.html" class="text-primary border-b-2 border-primary pb-1 font-medium">About Us</a>
+                    <a href="#" class="text-gray-600 hover:text-primary pb-1 transition duration-150">Services</a>
+                    <a href="contact.html" class="text-gray-600 hover:text-primary pb-1 transition duration-150">Contact Us</a>
+                </nav>
+
+                <div class="hidden md:block">
+                    <button class="bg-primary text-white px-4 py-2 rounded-lg font-medium hover:bg-indigo-700 transition duration-300 shadow-md">
+                        Start Free Trial
+                    </button>
+                </div>
+
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-500 hover:text-primary focus:outline-none">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-gray-50 border-t">
+                <a href="index.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:bg-gray-200">Home</a>
+                <a href="about.html" class="block px-3 py-2 rounded-md text-base font-medium text-primary">About Us</a>
+                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:bg-gray-200">Services</a>
+                <a href="contact.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:bg-gray-200">Contact Us</a>
+                <button class="w-full text-center bg-primary text-white px-3 py-2 mt-2 rounded-lg font-medium hover:bg-indigo-600 transition duration-300">
+                    Start Free Trial
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
+        <div class="text-center mb-16">
+            <h1 class="text-5xl font-extrabold text-gray-900">Our Story, Our Mission</h1>
+            <p class="mt-4 text-xl text-primary font-semibold">Driving Innovation since 2018.</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12 mb-20">
+            <div>
+                <h2 class="text-3xl font-bold text-gray-900 mb-4 border-b pb-2">Our Mission</h2>
+                <p class="text-lg text-gray-600 leading-relaxed">
+                    To empower enterprises globally with cutting-edge **AI and Data Analytics solutions**, transforming complex challenges into actionable insights and sustainable growth. We believe in ethical technology that drives real-world value.
+                </p>
+            </div>
+            <div>
+                <h2 class="text-3xl font-bold text-gray-900 mb-4 border-b pb-2">Our Vision</h2>
+                <p class="text-lg text-gray-600 leading-relaxed">
+                    To be the leading global partner in digital transformation, known for our **innovation, trust, and deep industry expertise** in the AI-driven economy.
+                </p>
+            </div>
+        </div>
+
+        <h2 class="text-3xl font-bold text-gray-900 text-center mb-10">Meet the Core Team</h2>
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-8 text-center">
+            <div class="p-4 bg-white shadow-lg rounded-xl">
+                <div class="h-24 w-24 bg-primary/20 rounded-full mx-auto mb-4 flex items-center justify-center text-primary font-bold">JD</div>
+                <h3 class="text-lg font-semibold text-gray-900">John Doe</h3>
+                <p class="text-sm text-gray-600">Founder & CEO</p>
+            </div>
+            <div class="p-4 bg-white shadow-lg rounded-xl">
+                <div class="h-24 w-24 bg-primary/20 rounded-full mx-auto mb-4 flex items-center justify-center text-primary font-bold">SA</div>
+                <h3 class="text-lg font-semibold text-gray-900">Sara Ali</h3>
+                <p class="text-sm text-gray-600">Chief Technology Officer</p>
+            </div>
+            </div>
+
+    </main>
+
+
+    <footer class="bg-gray-800 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+                <div class="grid grid-cols-2 md:grid-cols-5 gap-8 border-b border-gray-700 pb-10 mb-8">
+
+                    <div class="col-span-2 md:col-span-1">
+                        <a href="index.html" class="text-2xl font-bold text-primary mb-4 block">CeeZed Tech</a>
+                        <p class="text-sm text-gray-400 mb-4">Transforming data into wisdom.</p>
+
+                        <div class="flex space-x-4">
+                            <a href="#" class="text-gray-400 hover:text-white transition duration-300">FB</a>
+                            <a href="#" class="text-gray-400 hover:text-white transition duration-300">TW</a>
+                            <a href="#" class="text-gray-400 hover:text-white transition duration-300">LN</a>
+                            <a href="#" class="text-gray-400 hover:text-white transition duration-300">YT</a>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-lg font-semibold mb-4 text-primary">Company</h3>
+                        <ul class="space-y-3">
+                            <li><a href="about.html" class="text-sm text-gray-400 hover:text-white transition duration-300">About Us</a></li>
+                            <li><a href="contact.html" class="text-sm text-gray-400 hover:text-white transition duration-300">Contact Us</a></li>
+                            <li><a href="#" class="text-sm text-gray-400 hover:text-white transition duration-300">Careers</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="text-lg font-semibold mb-4 text-primary">Solutions</h3>
+                        <ul class="space-y-3">
+                            <li><a href="#" class="text-sm text-gray-400 hover:text-white transition duration-300">Data Analytics</a></li>
+                            <li><a href="#" class="text-sm text-gray-400 hover:text-white transition duration-300">Generative AI</a></li>
+                            <li><a href="#" class="text-sm text-gray-400 hover:text-white transition duration-300">Cloud Services</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="text-lg font-semibold mb-4 text-primary">Resources</h3>
+                        <ul class="space-y-3">
+                            <li><a href="#" class="text-sm text-gray-400 hover:text-white transition duration-300">Blog & Insights</a></li>
+                            <li><a href="#" class="text-sm text-gray-400 hover:text-white transition duration-300">Customer Stories</a></li>
+                            <li><a href="#" class="text-sm text-gray-400 hover:text-white transition duration-300">Documentation</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-span-2 md:col-span-1">
+                        <h3 class="text-lg font-semibold mb-4 text-primary">Legal</h3>
+                        <ul class="space-y-3">
+                            <li><a href="#" class="text-sm text-gray-400 hover:text-white transition duration-300">Privacy Policy</a></li>
+                            <li><a href="#" class="text-sm text-gray-400 hover:text-white transition duration-300">Terms of Use</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="mt-8 text-center md:flex md:justify-between md:items-center text-sm text-gray-400">
+                    <p>&copy; 2025 CeeZed IT Solutions Pvt. Ltd. All Rights Reserved.</p>
+                    <div class="mt-4 md:mt-0 space-x-4">
+                        <a href="#" class="hover:text-white">Privacy</a>
+                        <a href="#" class="hover:text-white">Terms</a>
+                    </div>
+                </div>
+
+        </div>
+    </footer>
+
+
+    <script>
+        const button = document.getElementById('mobile-menu-button');
+        const menu = document.getElementById('mobile-menu');
+
+        button.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
